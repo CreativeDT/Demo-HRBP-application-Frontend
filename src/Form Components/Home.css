@@ -1,0 +1,198 @@
+/* body{
+  background-image: url("https://darwinbox-data-prod-mum.s3.ap-south-1.amazonaws.com/INSTANCE3_a644e12decd252_39/workflows/a1420516126651bba079b158__1696315911_CREATIVE%20HUB%202%20%281%29.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZ5N2TJ7HIBYPYWZ4%2F20240125%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20240125T014603Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=82f685bcf3195464ae01874deaa7eda2fdc90241b4a67dbb110d27ade5736009");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  
+} */
+.login {
+  color: #042e5d;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.full-forms {
+  display: flex;
+  flex-direction: row;
+  font-family: sans-serif;
+  background-image: url("https://darwinbox-data-prod-mum.s3.ap-south-1.amazonaws.com/INSTANCE3_a644e12decd252_39/workflows/a1420516126651bba079b158__1696315911_CREATIVE%20HUB%202%20%281%29.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZ5N2TJ7HIBYPYWZ4%2F20240125%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20240125T014603Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Signature=82f685bcf3195464ae01874deaa7eda2fdc90241b4a67dbb110d27ade5736009");
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+.formContainer-right {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+.formContainer-left {
+  height: 100vh;
+  width: 50%;
+  object-fit: cover;
+}
+
+img {
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 50px;
+  height: fit-content;
+}
+
+.signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0b7ef5;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+form {
+  border-radius: 10px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 5px 0 hsl(0, 0%, 74%);
+  padding: 5px 40px;
+}
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+.form-inputs {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+.form-lable {
+  font-weight: bold;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.btn {
+  background-color: rgb(0, 109, 128);
+  color: whitesmoke;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  vertical-align: middle;
+  border: none;
+  margin-top: 20px;
+  box-shadow: 0 0 5px 0 hsl(0, 0%, 74%);
+  cursor: pointer;
+}
+.checkbox {
+  text-align: justify;
+}
+.anchor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.anchor > h4 {
+  font-weight: normal;
+}
+.lab {
+  font-size: 12px;
+  text-align: right;
+  color: rgb(163, 161, 161);
+}
+.std {
+  padding-top: 60px;
+}
+.anchor {
+  color: rgb(45, 45, 45);
+  font-size: small;
+}
+a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+.textfiled__lable {
+  color: rgb(201, 198, 198) !important;
+  font-size: small !important;
+}
+
+.textfield {
+  margin-bottom: auto;
+}
+p {
+  font-size: 60%;
+  margin: 0%;
+}
+
+.fullname p {
+  margin-left: 1%;
+}
+.error {
+  display: flex;
+  justify-content: space-between;
+}
+.cntcode {
+  width: 10%;
+  color: grey;
+}
+.headline {
+  color: #003277;
+  font-family: Work Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom_cnt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+h3 {
+  color: rgb(0, 109, 128);
+}
+.link {
+  color: rgb(0, 109, 128);
+}
+.forgotPassword {
+  width: 106px;
+  height: 15px;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.signUp {
+  top: 554px;
+  font-family: sans-serif;
+  font-weight: 600px;
+  font-size: 13px;
+}
+.disc {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
